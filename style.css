@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.yoncalogo {    
+    width: 173px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+  .navbar-inner{
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .navigation_bar {
+    display: flex;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Segoe UI' 
+}
+    .navigation_bar li {
+      margin: 0 15px;
+     }
+      .navigation_bar li a {
+        color: #000000;
+        font-size: 18px;
+        text-decoration: none; }
+#app-banner {
+background-color: #2db875;
+color: white;
+margin-top: 15px;
+padding: 80px 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+}
+      .app-banner-parent{
+        padding: 20px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .app-banner-left .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .app-banner-left .bottom .qr-code{
+        margin-right: 50px;
+      }
+      .app-banner-left .bottom .qr-code img{
+       width: 110px;
+       border-radius: 8px;
+       border: 1px solid black;
+       margin-bottom: -100px;
+      }
+
+      .app-banner-left .bottom .google-play-icon img{
+        width: 150px;
+        margin-left: -20px;
+       }
+
+      .app-banner-left .bottom .icon .text-icon{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 14px;
+        border-radius: 8px;
+        margin-bottom: -120px;
+        border: 1px solid #000;
+        margin-left: -20px;
+      }
+
+      .app-banner-left .bottom .icon .text-icon .emoji{
+        margin-right: 10px;
+      }
+      .app-banner-left h1 {
+
+        font-size: 43px;
+        font-weight: bold;
+        margin-bottom: 100px;
+        text-align: left;
+        max-width: 560px;
+        font-family: 'Segoe UI';    }
+ 
+   .yonca-img{
+    width: 440px;
+    height: 460px;
+    border-radius: 42px;
+    background-image: url("./yonca-repeat.svg");
+    position: relative; }
+
+  .app-banner-right .document-icon {  
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-banner-right .alert-icon {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 410px;
+    left: -30px;
+  }
+  .app-banner-right .arrow-icon {
+    position: absolute;
+    margin-left: -70%;
+    margin-top: 115%;
+  }
+  .app-banner-right .telephone-image {
+   top: 50px;
+   left: 110px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    margin-left: -25px;
+    max-width: 100%;
+    height: auto;
+  }
+  .app-banner-right .telephone-image img {
+    width: 100%;
+   
+  }
+.btn {
+height: 36px;
+font-size: 13px;
+padding-left: 32px;
+padding-right: 32px;
+margin-left: 30%;
+background-color: white;
+border-radius: 8px;
+border: 1px solid black;
+margin-right: 30px;
+margin-top: 20px;
+}
+
+#white-banner {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.white-banner-center .yonca-green-text {
+  background-color: #e6f5ef; 
+  color: #000000; 
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  margin-top: 200px;
+  }
+.white-banner-center .yonca-green-icon {
+  width: 20px;
+  margin: 0px 8px 0px 0px
+}
+.white-banner-center h1 {
+  color: #000000;
+  font-size: 36px;
+  margin-top: 30px;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.white-banner-center .yonca-green-text2 {
+  color: #000000;
+  font-size: 16px;
+  margin-top: 40px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.white-banner-center .yonca-green-text2 p {
+  margin-bottom: 4px;
+}
+.whatsapp-button {
+  width: 3.5%;
+  align-items: center;
+  background-color: #25d366;
+  border-radius: 50%;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+}
+
+.whatsapp-button img {
+  width: 30px;
+}
+#card-container {
+  background: #e3ffec;
+  margin-top: 200px;
+
+}
+.card-container-inner {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 100px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  width: 400px;
+  padding: 58px;
+  box-shadow: 0 8px 16px rgba(0, 200, 100, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI';
+  border: 0.1px solid xrgba(0, 0, 0, 0.304);
+  box-shadow: 4px 7px 0 1px #c9fdda;
+}
+.icon-option img {
+  width: 62px;
+  height: 65px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+.functions p {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  font-size: 30px;
+}
+#functions {
+    text-align: left; 
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 45%;
+    margin-top: 8%;
+    margin-left: 100px;
+    }
+
+    #functions #expand {
+      display: flex;
+      justify-content: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 0px;
+      border-bottom: 1px solid #c5c7c3;
+      padding-bottom: 20px; 
+      align-items: flex-start;
+    }
+    
+    #functions #collapse {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      border-bottom: 1px solid #c5c7c3;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+   
+    #functions .functions-menu img {
+  align-items: center;
+  background-color: #454242;
+  background-color: var(--white);
+  border: 1px solid #c5c7c3;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  padding: 7.5px;
+  width: 32px;
+  margin-right: 13px;
+}
+#functions h2 {
+  font-family: 'Segoe UI';
+  margin-top: 10px;
+  font-size: 35px;
+  margin-bottom: 65px;
+}
+.yonca-green-text-2 {
+  background-color: #e6f5ef; 
+  color: #000000; 
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 16px;
+  position: relative;
+}
+.yonca-green-icon {
+  width: 20px;
+  margin: 0px 8px 0px 0px;
+}
+.right-functions img {
+  align-items: center;
+  background-color: #f5fff4;
+  background-image: url(./yonca-background-logo.svg);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  border: 1px solid #c5c7c3;
+  border-radius: 32px;
+  box-shadow: 9px 9px 0 1px #c9fdda;
+  display: flex;
+  height: 568px;
+  justify-content: center;
+  position: relative;
+}
