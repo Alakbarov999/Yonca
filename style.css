@@ -262,15 +262,13 @@ margin-top: 20px;
   font-size: 30px;
 }
 #functions {
-    text-align: left; 
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 45%;
-    margin-top: 8%;
-    margin-left: 100px;
-    }
+  text-align: left;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px;
+}
 
     #functions #expand {
       display: flex;
@@ -281,6 +279,7 @@ margin-top: 20px;
       border-bottom: 1px solid #c5c7c3;
       padding-bottom: 20px; 
       align-items: flex-start;
+      margin-right: 100px;
     }
     
     #functions #collapse {
@@ -290,6 +289,7 @@ margin-top: 20px;
       border-bottom: 1px solid #c5c7c3;
       padding-bottom: 20px;
       margin-bottom: 20px;
+      margin-right: 100px;
     }
    
     #functions .functions-menu img {
@@ -325,10 +325,15 @@ margin-top: 20px;
   width: 20px;
   margin: 0px 8px 0px 0px;
 }
-.right-functions img {
+.functions-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.functions-right img {
   align-items: center;
   background-color: #f5fff4;
-  background-image: url(./yonca-background-logo.svg);
+  /* background-image: url(./yonca-background-logo.svg); */
   background-position: 0 100%;
   background-repeat: no-repeat;
   border: 1px solid #c5c7c3;
@@ -338,4 +343,37 @@ margin-top: 20px;
   height: 568px;
   justify-content: center;
   position: relative;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2eb877;
+  padding: 20px;
+}
+
+.illik {
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.price {
+  background-color: #e6fff2;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+}
+.footer { 
+  padding-bottom: 18px;
+  padding-top: 18px;
+  background-color: #737373;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
 }
